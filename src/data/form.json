@@ -7,21 +7,21 @@
       },
       "data": [
         {
-          "name": "fullName",
+          "fieldId": "fullName",
           "label": "Full Name",
           "type": "text",
           "required": true,
           "value": ""
         },
         {
-          "name": "role",
+          "fieldId": "role",
           "label": "Role",
           "type": "text",
           "required": false,
           "value": ""
         },
         {
-          "name": "phoneNumber",
+          "fieldId": "phoneNumber",
           "label": "Phone Number",
           "type": "text",
           "required": true,
@@ -35,31 +35,31 @@
       },
       "data": [
         {
-          "name": "companyName",
+          "fieldId": "companyName",
           "label": "Full Name",
           "type": "text",
           "required": true
         },
         {
-          "name": "fein",
+          "fieldId": "fein",
           "label": "What is your Federal Employer Identification Number? (FEIN)",
           "type": "text",
           "required": true
         },
         {
-          "name": "yearsInBusiness",
+          "fieldId": "yearsInBusiness",
           "label": "Years in Business",
           "type": "number",
           "required": false
         },
         {
-          "name": "numberofLocations",
+          "fieldId": "numberofLocations",
           "label": "Number of Locations",
           "type": "number",
           "required": false
         },
         {
-          "name": "statesOfOperation",
+          "fieldId": "statesOfOperation",
           "label": "In which states do you operate",
           "type": "text",
           "required": false
@@ -72,31 +72,31 @@
       },
       "data": [
         {
-          "name": "workInjuryLocation",
+          "fieldId": "workInjuryLocation",
           "label": "What is the name of the clinic, physician, or ER used for work injuries?",
           "type": "text",
           "required": true
         },
         {
-          "name": "medicalInsurance",
+          "fieldId": "medicalInsurance",
           "label": "Does your group provide medical insurance?",
           "type": "checkbox",
           "required": false
         },
         {
-          "name": "retirementPensionPlan",
+          "fieldId": "retirementPensionPlan",
           "label": "Do you offer a retirement or pension plan?",
           "type": "checkbox",
           "required": false
         },
         {
-          "name": "paidVacation",
+          "fieldId": "paidVacation",
           "label": "Do you give paid vacation?",
           "type": "checkbox",
           "required": false,
           "subFields": [
             {
-              "name": "paidVacationDetails",
+              "fieldId": "paidVacationDetails",
               "label": "Please provide details about the paid vacation",
               "type": "text",
               "required": false
@@ -104,7 +104,7 @@
           ]
         },
         {
-          "name": "phoneNumber",
+          "fieldId": "phoneNumber",
           "label": "Phone Number",
           "type": "text",
           "required": true
@@ -118,7 +118,7 @@
       "data": [
         {
           "type": "radioGroup",
-          "name": "payment",
+          "fieldId": "payment",
           "required": true,
           "subFields": [
             {
