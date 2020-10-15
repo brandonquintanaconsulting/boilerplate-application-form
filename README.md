@@ -1,4 +1,4 @@
-# Muti-Step Application Submission Flow
+# Multi-Step Application Submission Flow
 
 ## Task 1 Planning
 
