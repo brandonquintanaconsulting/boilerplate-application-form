@@ -7,7 +7,6 @@
 - Since we have a design we can use that to drive data and data to drive development
 - We'll create a dummy API JSON file to use as a mock vs API server.
 - Utilize Formik for Form states and existing UI components where applicable.
-- This can either be done server side in next using it's routes for each form page but since you mentioned a lot of things are moving or have moved into the client side we'll do the same here for consistency. We'll create a route for each form page with React Router.
 - For string values I'm putting directly into the JSON object. If we're using a translation plugin we can replace those with translations keys instead.
 - Since this data is a work in progress and I'm not super familiar with the build it components it might make sense to change data to fit the components and since it's a custom API format it's possible to do so.
 
@@ -219,10 +218,11 @@ We'll create final output for entire wizard. We'll need to implement this via #1
 ```
 
 ## Task 3 Build Multistep Form
+
 - [[1](https://github.com/brandonquintanaconsulting/boilerplate-application-form/issues/1)] Create API or Mock for Fetching Form JSON
 - [[2](https://github.com/brandonquintanaconsulting/boilerplate-application-form/issues/2)] Setup Router
 - [[3](https://github.com/brandonquintanaconsulting/boilerplate-application-form/issues/3)] Implement Components
 - [[4](https://github.com/brandonquintanaconsulting/boilerplate-application-form/issues/4)] Form States with Formik
 - [[5](https://github.com/brandonquintanaconsulting/boilerplate-application-form/issues/5)] Submit Data to Backend
 
-A number of these things can be done in parallel since we've spec'd the initial JSON object.  We can create the API as one lane, the router can be done separately, the components can use the mock and layout UI components, form states would have to happen after UI is done.  Submitting to the backend can be done at any time also since we know the state object we can find parameters to submit to the backend.
+A number of these things can be done in parallel since we've spec'd the initial JSON object. We can create the API as one lane, the router can be done separately, the components can use the mock and layout UI components, form states would have to happen after UI is done. Submitting to the backend can be done at any time also since we know the state object we can find parameters to submit to the backend.
